@@ -1,0 +1,40 @@
+/* Estilo geral da cena */
+.root {
+  -fx-background-color: #f0f0f0; /* Cor de fundo clara */
+  -fx-padding: 20px; /* Adiciona um padding ao redor do conteúdo */
+  -fx-font-family: "Arial", sans-serif; /* Fonte geral */
+}
+
+/* Estilo do enunciado da questão */
+.enunciado-texto {
+  -fx-font-size: 18px; /* Tamanho da fonte */
+  -fx-font-weight: bold; /* Peso da fonte */
+  -fx-text-fill: #333333; /* Cor do texto */
+  -fx-padding: 10px; /* Padding ao redor do texto */
+}
+
+/* Estilo dos botões */
+.button {
+  -fx-background-color: #4CAF50; /* Cor de fundo dos botões */
+  -fx-text-fill: white; /* Cor do texto */
+  -fx-font-size: 16px; /* Tamanho da fonte dos botões */
+  -fx-padding: 10px 20px; /* Padding interno dos botões */
+  -fx-margin: 5px; /* Margem ao redor dos botões */
+  -fx-border-radius: 5px; /* Bordas arredondadas */
+  -fx-background-radius: 5px; /* Bordas arredondadas de fundo */
+}
+
+.button:hover {
+  -fx-background-color: #45a049; /* Cor de fundo quando o botão é hover */
+}
+
+.button:pressed {
+  -fx-background-color: #397d39; /* Cor de fundo quando o botão é pressionado */
+}
+
+/* Estilo do label de feedback */
+.feedback-label {
+  -fx-font-size: 16px;
+  -fx-text-fill: #d9534f; /* Cor do texto de feedback */
+  -fx-padding: 10px; /* Padding ao redor do texto */
+}
